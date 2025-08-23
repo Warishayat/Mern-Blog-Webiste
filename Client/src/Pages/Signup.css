@@ -1,0 +1,104 @@
+.signup-container {
+    width: 380px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    margin-top: 40px;
+}
+
+.Logoimage {
+    width: 120px;
+    display: flex;
+    margin: auto;
+    padding-top: 50px 0 0;
+}
+
+.Wrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 25px 35px;
+}
+
+.NameSignup {
+    margin-top: 15px !important;
+}
+
+.signupButton {
+    margin-top: 15px !important;
+    background-color: #FB641B !important;
+    color: white !important;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px !important;
+}
+
+.signupButton:hover {
+    border: 1px solid white;
+    color: whitesmoke !important;
+}
+
+.or-button {
+    margin-top: 15px !important;
+    text-align: center;
+    color: grey;
+    font-size: 13px !important;
+}
+
+.LoggedIn {
+    margin-top: 15px !important;
+}
+
+.LoggedIn :hover {
+    border: 1px solid #FB641B !important;
+}
+
+@meida screen and(max-width:700px) {
+    .signup-container {
+        width: 320px;
+        margin: auto;
+        box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+        margin-top: 20px;
+    }
+
+    ..Logoimage {
+        width: 80px;
+        display: flex;
+        margin: auto;
+        padding-top: 30px 0 0;
+    }
+    .Wrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px 30px;
+    }
+
+    .NameSignup {
+     margin-top: 10px !important;
+    }
+
+    .signupButton {
+    margin-top: 10px !important;
+    background-color: #FB641B !important;
+    color: white !important;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px !important;
+}
+
+.signupButton:hover {
+    border: 1px solid white;
+    color: whitesmoke !important;
+}
+
+.or-button {
+    margin-top: 10px !important;
+    text-align: center;
+    color: grey;
+    font-size: 9px !important;
+}
+
+.LoggedIn {
+    margin-top: 10px !important;
+}
+
+.LoggedIn :hover {
+    border: 1px solid #FB641B !important;
+}
+}

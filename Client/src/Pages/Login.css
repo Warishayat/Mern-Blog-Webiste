@@ -1,0 +1,105 @@
+.Login-container {
+    width: 380px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    margin-top: 40px;
+}
+
+.Logoimage {
+    width: 120px;
+    display: flex;
+    margin: auto;
+    padding-top: 50px 0 0;
+}
+
+.Wrapper-Login {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 25px 35px;
+}
+
+.NameLogin {
+    margin-top: 20px !important;
+}
+
+.LoginButton {
+    margin-top: 15px !important;
+    background-color: #FB641B !important;
+    color: white !important;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px !important;
+}
+
+.LoginButton:hover {
+    border: 1px solid white;
+    color: whitesmoke !important;
+}
+
+.or-button-login {
+    margin-top: 15px !important;
+    text-align: center;
+    color: grey;
+    font-size: 13px !important;
+}
+
+.SignedIn {
+    margin-top: 15px !important;
+}
+
+.SignedIn :hover {
+    border: 1px solid #FB641B !important;
+}
+
+@meida screen and(max-width:700px) {
+    .Login-container {
+        width: 320px;
+        margin: auto;
+        box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+        margin-top: 20px;
+    }
+
+    ..Logoimage {
+        width: 80px;
+        display: flex;
+        margin: auto;
+        padding-top: 30px 0 0;
+    }
+
+    .Wrapper-Login {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        padding: 20px 30px;
+    }
+
+    .NameLogin {
+        margin-top: 10px !important;
+    }
+
+    .LoginButton {
+        margin-top: 10px !important;
+        background-color: #FB641B !important;
+        color: white !important;
+        box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px !important;
+    }
+
+    .LoginButton:hover {
+        border: 1px solid white;
+        color: whitesmoke !important;
+    }
+
+    .or-button-login {
+        margin-top: 10px !important;
+        text-align: center;
+        color: grey;
+        font-size: 9px !important;
+    }
+
+    .SignedIn {
+        margin-top: 10px !important;
+    }
+
+    .SignedIn :hover {
+        border: 1px solid #FB641B !important;
+    }
+}
