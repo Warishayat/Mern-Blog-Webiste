@@ -50,7 +50,7 @@
     border: 1px solid #FB641B !important;
 }
 
-@meida screen and(max-width:700px) {
+@media screen and(max-width:700px) {
     .Login-container {
         width: 320px;
         margin: auto;
@@ -58,7 +58,7 @@
         margin-top: 20px;
     }
 
-    ..Logoimage {
+    .Logoimage {
         width: 80px;
         display: flex;
         margin: auto;

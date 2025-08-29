@@ -1,19 +1,22 @@
-import React from 'react'
-import { useNavigate } from 'react-router-dom';
+import React from "react";
+import { Navigate, useNavigate } from "react-router-dom";
+import HeroSection from "../Components/Hero/HeroSection";
+import BlogSection from "../Components/BlogSection/BlogSection";
+
 function Home() {
   const navigate = useNavigate();
   const storedUser = localStorage.getItem("user");
-  const user = storedUser ? JSON.parse(storedUser) : {name:" ",email:" "}
+  const user = storedUser ? JSON.parse(storedUser) : { name: " ", email: " " };
   console.log(storedUser);
   const handleLogout = () => {
-    localStorage.removeItem("token"); 
-    navigate("/"); 
+    localStorage.removeItem("token");
+    navigate("/");
   };
   return (
     <div>
-      <h2>Welcome to the home {user.name}</h2>
-      <button onClick={handleLogout}>Logout</button>
+      <HeroSection/>
+      <BlogSection/>
     </div>
-  );
+  )
 }
-export default Home
+export default Home;
