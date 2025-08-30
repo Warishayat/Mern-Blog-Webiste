@@ -1,5 +1,85 @@
 .blog-container{
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     background-color: #e5e5e5;
+}
+.blog-heading{
+    margin-top: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    padding: 1.4rem;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+.no-underline{
+    text-decoration: none !important;
+}
+.category-button {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  text-align: left;
+  border: 1px solid grey;
+  background: white;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.category-button:hover {
+  background-color: #f0f0f0;
+}
+
+.category-active {
+  border: 2px solid #1976d2;
+  font-weight: bold;
+}
+
+.blog-para {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    font-size: larger;
+    padding: 1rem; 
+}
+
+.main-section {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 1.8rem;
+    display: grid;
+    grid-template-columns: 27% 73%;   /* left 30%, right 70% */
+    gap: 0.5rem; 
+    padding: 1rem; 
+}
+
+.box1 {
+    border-right: 2px solid #ccc;  
+    line-height: 1rem;   
+    padding-right: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;       /* single column */
+    grid-auto-rows: auto;             /* each row adjusts height automatically */
+    gap: 1rem;                      /* spacing between rows */
+}
+
+.box1 h3 {                            /* adjust h3 to whatever heading you use */
+    margin: 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #ccc;    /* bottom border under each heading */
+}
+.table td {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.table td {
+    line-height: 2rem;
+    height: 3rem;
+    border-bottom: 1px solid grey;
+}
+.box2 {
+    padding-left: 1rem;
 }

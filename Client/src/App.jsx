@@ -7,6 +7,7 @@ import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Blogs from './Pages/Blogs'
 import Navbar from './Components/Navbar/Navbar'
+import CreatBlog from './Pages/CreatBlog'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/blogs' element={<Blogs/>}/>
+        <Route path='/create_blog' element={<CreatBlog/>}/>
       </Routes>
     </Router>
   )
